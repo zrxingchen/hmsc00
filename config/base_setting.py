@@ -1,6 +1,8 @@
-#设置服务器端口
+# 设置服务器端口
 SERVER_PORT = 8999
-
-# 链接数据路
+# 连接到数据库
 SQLALCHEMY_DATABASE_URI = 'mysql://root:2020312@127.0.0.1/hmsx_db?charset=utf8'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+# cookie
+AUTH_COOKIE_NAME = '1903_hmsx'
