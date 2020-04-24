@@ -35,6 +35,7 @@ var user_login_ops = {
                 dataType:"json",
                 success:function(response){
                     btn_target.removeClass("disabled")
+                    alert('登录成功~~~')
                     console.log(response)
                 }
             })
