@@ -34,7 +34,7 @@ def before_request():
       return redirect(UrlManager.buildUrl("/user/login"))
    return
 
-
+# 测试 cooike
 # 判断用户是否登录,返回用户信息user_info
 def check_login():
    cookies = request.cookies

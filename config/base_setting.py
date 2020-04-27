@@ -1,4 +1,4 @@
-# 设置服务器端口
+# 设置服务器端口 端口号为8999
 SERVER_PORT = 8999
 # 连接到数据库
 SQLALCHEMY_DATABASE_URI = 'mysql://root:123456@127.0.0.1/hmsx_db?charset=utf8'
