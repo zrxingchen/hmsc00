@@ -1,6 +1,6 @@
 from application import app
 from web.controllers.user.User import router_user
-from web.controllers.index import router_index
+from web.controllers.user.index import router_index
 
 # 拦截器的路由
 from web.interceptos.AuthInterceptor import *
